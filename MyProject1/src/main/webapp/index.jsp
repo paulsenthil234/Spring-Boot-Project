@@ -82,6 +82,7 @@ String Error = (String) session.getAttribute("Error");
 if(Error == "Invalid Username,Password") {
 %>
 <script> swal.fire("Invalid Username,Password") </script>
+<%
 } else {
 } %>
 </body>
